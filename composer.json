@@ -1,5 +1,5 @@
 {
-    "name": "elemental-block-gridifier",
+    "name": "ucenna/elemental-block-gridifier",
     "description": "SilverStripe Elemental Block Gridifier",
     "type": "silverstripe-vendormodule",
     "require": {
