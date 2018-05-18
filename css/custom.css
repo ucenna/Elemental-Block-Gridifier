@@ -1,0 +1,92 @@
+table.grid-field__table {
+  display: block;
+}
+
+table.grid-field__table thead {
+  display: block;
+}
+
+table.grid-field__table tbody{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+table.grid-field__table tbody tr {
+  display: flex;
+  border: 1px solid #ced5e1;
+  border-left: none;
+  margin: -0.5px 0 ;
+  flex-wrap: wrap;
+  width: calc(100%);
+  background-color: white;
+  padding: 0;
+}
+
+table.grid-field__table tbody tr.col-1 {
+  width: calc(100%/12);
+}
+
+table.grid-field__table tbody tr.col-2 {
+  width: calc(100%/6);
+}
+
+table.grid-field__table tbody tr.col-3 {
+  width: calc(100%/4);
+}
+
+table.grid-field__table tbody tr.col-4 {
+  width: calc(100%/3);
+}
+
+table.grid-field__table tbody tr.col-5 {
+  width: calc(5*100%/12);
+}
+
+table.grid-field__table tbody tr.col-6 {
+  width: calc(100%/2);
+}
+
+table.grid-field__table tbody tr.col-7 {
+  width: calc(7*100%/12);
+}
+
+table.grid-field__table tbody tr.col-8 {
+  width: calc(8*100%/12);
+}
+
+table.grid-field__table tbody tr.col-9 {
+  width: calc(9*100%/12);
+}
+
+table.grid-field__table tbody tr.col-10 {
+  width: calc(10*100%/12);
+}
+
+table.grid-field__table tbody tr.col-11 {
+  width: calc(11*100%/12);
+}
+
+table.grid-field__table tbody tr.col-12 {
+  width: calc(100%);
+}
+
+table.grid-field__table tbody {
+    border-top: 1px solid #ced5e1;
+    margin-top: -0.5px;
+}
+
+table.grid-field__table tr td {
+  display: block;
+  border: none;
+}
+
+table.grid-field__table .grid-field__col-compact {
+  flex-grow: 100;
+  text-align: right;
+}
+
+table.grid-field__table tr:first-child td {
+  border: none;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "elemental-block-gridifier",
+    "description": "SilverStripe Elemental Block Gridifier",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "php": ">=5.6.0",
+        "dnadesign/silverstripe-elemental": "^2.0@dev"
+    },
+    "extra": {
+        "expose": [
+          "css"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

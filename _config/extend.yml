@@ -1,0 +1,6 @@
+Silverstripe\Forms\GridField\GridField:
+  extensions:
+    - Ucenna\ElementalBlockGridifier\GridifierExtension
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - Ucenna\ElementalBlockGridifier\BaseElementExtension
