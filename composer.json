@@ -4,7 +4,7 @@
     "type": "silverstripe-vendormodule",
     "require": {
         "php": ">=5.6.0",
-        "dnadesign/silverstripe-elemental": "^4.0"
+        "dnadesign/silverstripe-elemental": "^4"
     },
     "extra": {
         "expose": [
