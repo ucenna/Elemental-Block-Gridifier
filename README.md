@@ -5,7 +5,7 @@
 * [dnadesign/silverstripe-elemental](https://github.com/dnadesign/silverstripe-elemental)
 
 ## Installation ##
-`composer require ucenna/silverstripe-sectioned-gridfield`
+`composer require ucenna/elemental-block-gridifier`
 
 ## Usage ##
 Once installed, will automatically add a column setting to the CMS.
